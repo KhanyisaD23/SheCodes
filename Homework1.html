@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework1</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-size: 34px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1a64d5;
+        margin: 8px;
+      }
+      .weather {
+        margin: 10px;
+      }
+      .degree {
+        font-weight: lighter;
+        color: black;
+        font-size: 34px;
+      }
+      h2 {
+        text-align: center;
+        font-size: 34px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+      }
+      ul {
+        text-align: center;
+        list-style: none;
+        font-family: monospace;
+        font-size: 20px;
+        padding: 15px 20px;
+        margin: 0 auto;
+      }
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 19px;
+      }
+      .bold {
+        font-weight: lighter;
+      }
+      span {
+        color: RGB(59, 66, 82, 0.9);
+        font-size: 18px;
+      }
+      .Tom {
+        max-width: 400px;
+        padding: 10px;
+        margin: 0 auto;
+        display: block;
+        border-radius: 10px;
+        border: 1px solid white;
+        transition: all 200ms ease-in-out;
+      }
+      .Tom:hover {
+        background: RGB(255, 247, 214, 0.5);
+        color: black;
+        cursor: pointer;
+      }
+
+      .Sat {
+        max-width: 400px;
+        padding: 20px;
+        margin: 0 auto;
+        display: block;
+        border-radius: 10px;
+        border: 1px solid white;
+        transition: all 200ms ease-in-out;
+      }
+      .Sat:hover {
+        background: RGB(255, 247, 214, 0.5);
+        color: black;
+        cursor: pointer;
+      }
+
+      .Sun {
+        max-width: 400px;
+        padding: 20px;
+        margin: 0 auto;
+        display: block;
+        border-radius: 10px;
+        border: 1px solid white;
+        transition: all 200ms ease-in-out;
+      }
+      .Sun:hover {
+        background: RGB(255, 247, 214, 0.5);
+        color: black;
+        cursor: pointer;
+      }
+      button {
+        margin: 0 auto;
+        padding: 18px 23px;
+        color: white;
+        display: block;
+        background: #1a64d5;
+        border-radius: 40px;
+        border: 1px solid #1a64d5;
+        transition: all 200ms ease-in-out;
+        font-size: 16px;
+      }
+      button:hover {
+        background: white;
+        color: #1a64d5;
+        cursor: pointer;
+      }
+      .copyright {
+        text-align: center;
+        font-family: monospace;
+        color: RGB(59, 66, 82, 0.9);
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <div class="weather">🌤</div>
+      Currently 21° in Tokyo
+    </h1>
+    <h2><span class="degree">13° /</span> 23°</h2>
+    <strong>
+      <ul>
+        <li class="Tom">
+          <p>🌧Tomorrow</p>
+          <span class="bold">10° /</span>
+          <span>22°</span>
+        </li>
+
+        <li class="Sat">
+          <p>🌥 Saturday</p>
+          <span class="bold">15° /</span>
+          <span>17°</span>
+        </li>
+
+        <li class="Sun">
+          <p>☀️ Sunday</p>
+          <span class="bold">25° /</span>
+          <span>28°</span>
+        </li>
+      </ul>
+    </strong>
+    <button>Change city</button>
+    <p class="copyright">Coded by Khanyisa Dywili</p>
+  </body>
+</html>
